@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main (){
+// declaração de variáveis
+float a, b, c;
+// leitura dos dados
+printf ("Digite o primeiro valor");
+scanf ("%f",&a);
+scanf("%f",&b);
+//cálculo
+if (b==0){
+printf("Impossivel calcular! b=0");
+}else {
+c= a/b;
+printf("c=%f",c);
+}
+return 0;
+}
+
