@@ -1,0 +1,16 @@
+#include <stdio.h>
+   int main(){
+   float ano, meses, dias, ddv;
+   printf ("Digite o ano da pessoa");
+   scanf ("%f, &ano");
+   printf ("Digite o meses da pessoa");
+   scanf ("%f, &meses"); 
+   printf ("Digite o dias da pessoa");
+   scanf ("%f, &dias");
+   ddv=365 * ano + 30 * meses + dias; 
+
+   printf("A Idade em dias eh: %f, ddv"); 
+
+   return 0;
+   }
+   
