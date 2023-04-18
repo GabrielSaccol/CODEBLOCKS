@@ -1,0 +1,22 @@
+#include <ctype.h>
+int main (){
+  float nota = 3, soma=0, media;
+  int q=0;
+  while (nota>0){
+
+    printf("Nota:");
+    scanf("%f",&nota);
+    q++;
+    if(nota>0){
+        soma=soma+nota;
+    }
+
+}
+printf("Quantidade de notas=%d\n",q-1);
+media=soma/(q-1);
+printf("media: %f",media);
+
+return 0;
+
+
+}
